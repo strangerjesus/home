@@ -1,0 +1,136 @@
+# Purity Jekyll Theme
+#=====================
+
+## Plugin Configurations
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+sass:
+  style: compressed
+
+
+## Globals
+
+url:     http://saswatpadhi.github.io
+baseurl: /purity-jekyll-theme
+email: 
+
+title:    Stranger Jesus
+tagline:  Christianity for weirdos, mostly                             #Optional
+description: After years of being a square peg trying to fit in round holes it became obvious that the effort just wasn't worth it. God said "Stop doing that!" But here's the thing&#59; I know lots and lots of other people who've tried to fit in with the church without much success but to varying degrees pain, shame and apathy. This show is for them. It's an effort to let people who might not otherwise have the opportunity hear (or overhear) good news.
+keywords: 
+  Christianity
+  church
+  weirdos
+timezone: America/Chicago
+lang: English
+
+author:
+  name:     Daniel Schultz
+  link:     /pages/dan.md
+  photo:
+    alt:    Daniel Schultz
+    remote: 
+#    local: assets/img/photo.jpg
+
+## Theme and Layout
+
+# Defaults:
+# ---------
+# theme:
+#   tooltips:    enabled
+#   hover_light: enabled
+#
+# fonts:
+#   base: Noto Sans
+#   head: Montserrat
+#   mono: Ubuntu Mono
+#
+# layout:
+#   header:
+#     style: scroll # (can be: scroll | fixed | disabled)
+#   footer:
+#     style: scroll # (can be: scroll | fixed | disabled)
+#   sidebar:
+#     style: left   # (can be: left | right | disabled)
+
+layout:
+  header:
+    style: fixed
+  sidebar:
+    style: right
+
+topmenu:
+  Itunes:
+    iTunes:
+      url:   https://example.com
+      title: 'Stranger Jesus on iTunes'
+      icon:  itunes-note
+      color: blue
+#  Soundcloud:
+#    soundcloud:
+#      url:   https://example.com
+#      title: 'Stranger Jesus on Soundcloud'
+#      icon:  soundcloud
+#      color: orange
+  Mailchimp:
+    mailchimp:
+      url:  https://example.com
+      title: 'Sign up for our newsletter'
+      icons: envelope-square
+      color: red
+  Phone:
+    phone:
+      local: pages/phone.md
+      title: 'Call the show!'
+      color: black
+  Support:
+    support:
+      local: pages/support.md
+      title: 'Oh God this feels so crass'
+      icon:  dollar-sign
+      color: green
+  Contact:
+    email:
+      url: https://example.com
+      title: 'email'
+      icons: keyboard
+      color: darkgray
+
+
+sidemenu:
+  Links:
+    personal:
+      local: pages/dan.md
+      title: About Dan
+      icon:  user
+    show:
+      local: pages/abouttheshow.md
+      title: About the Show
+      icon:  microphone
+    split_1:
+      type:  separator
+    twitter:
+      url:   https://twitter.com/pastordan
+      title: Twitter
+      icon:  twitter
+    instagram:
+      url:   https://www.instagram.com/rev.daniel.schultz/
+      title: Instagram
+      icon:  instagram
+    facebook:
+      url:   https://www.facebook.com/DanielSchultzWriter/
+      title: Facebook
+      icon:  facebook
+    reddit:
+      url:   https://www.facebook.com/DanielSchultzWriter/
+      title: Reddit
+      icon:  reddit
+    split_2:
+      type:  separator
+    support:
+      local: pages/support.md
+      title: Support
+      icon:  dollar
