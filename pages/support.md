@@ -8,9 +8,9 @@ God, I feel so crass about this, but it's a necessary evil. There are lots of wa
 
 <ul>
 	<li><a href="https://www.patreon.com/user?u=4668468">Patreon</a> for ongoing support (even a little helps!)</li>
-	<li>PayPal for a one-time gift</li>
+	<li><a href="https://www.paypal.com" title="dan@strangerjesus.com">PayPal</a> for a one-time gift</li>
 	<li><a href="https://www.gofundme.com/keep-christianity-weird">GoFundMe</a> for our fundraisers</li>
-	<li>Amazon Wishlist if you want to subsidize our book and equipment habit</li>
+	<li><a href="http://a.co/3MbOWBN">Amazon Wishlist</a> if you want to subsidize our book and equipment habit</li>
 </ul>
 
 We can even make arrangements for an old-fashioned check if you like.

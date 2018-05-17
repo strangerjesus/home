@@ -22,8 +22,10 @@
               {% for page in site.pages %}
                 {% if page.path == link[1].local %}
                   <a class='tooltip-down' data-tooltip='{{ page.title }}' href='{{ site.baseurl }}{{ page.url }}'>
-                  {% if page.icon %}
+                  {% if page.icon !=null %}
                     <i class='fas fa-{{ page.icon }}' style='color: {{ link[1].color }};'></i>
+                    {% else %}
+                    <img src="{{ site.url }}{{ site.baseurl }}/assets/alt-icons/{{ page.alt-icon }}" style='width:1.4em;'>
                   {% endif %}
                   </a>
                 {% endif %}
@@ -31,11 +33,10 @@
             {% else %}
               <a class='tooltip-down' data-tooltip='{{ link[1].title }}'
                  href='{{ link[1].url }}'>
-                {% if link[1].icon %}
-                  <i class='fab fa-{{ link[1].icon }}' style='color: {{ link[1].color }};'></i>
-                {% endif %}
-                {% if link[1].icons %}
-                  <i class='fas fa-{{ link[1].icons }}' style='color: {{ link[1].color }};'></i>
+                {% if link[1].icon !=null %}
+                  <i class='fas fa-{{ link[1].icon }}' style='color: {{ link[1].color }};'></i>
+                  {% else %}
+                    <img src="{{ site.baseurl }}/assets/alt-icons/{{ link[1].alt-icon }}" style='width:1.4em;'>
                 {% endif %}
               </a>
             {% endif %}

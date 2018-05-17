@@ -13,11 +13,12 @@ sass:
 
 ## Globals
 
-url:     http://saswatpadhi.github.io
-baseurl: /purity-jekyll-theme
-email: 
+url:     strangerjesus.com
+baseurl: strangerjesus.com
+email: dan@strangerjesus.com
 
-title:    Stranger Jesus
+title:    STRANGER JESUS
+name:  Stranger Jesus
 tagline:  Christianity for weirdos, mostly                             #Optional
 description: After years of being a square peg trying to fit in round holes it became obvious that the effort just wasn't worth it. God said "Stop doing that!" But here's the thing&#59; I know lots and lots of other people who've tried to fit in with the church without much success but to varying degrees pain, shame and apathy. This show is for them. It's an effort to let people who might not otherwise have the opportunity hear (or overhear) good news.
 keywords: 
@@ -33,7 +34,7 @@ author:
   photo:
     alt:    Daniel Schultz
     remote: 
-#    local: assets/img/photo.jpg
+    local: assets/images/pastordan.png
 
 ## Theme and Layout
 
@@ -65,9 +66,9 @@ layout:
 topmenu:
   Itunes:
     iTunes:
-      url:   https://example.com
+      url:   https://itunes.apple.com/us/podcast/stranger-jesus/id1385819114
       title: 'Stranger Jesus on iTunes'
-      icon:  itunes-note
+      icon:  music
       color: blue
 #  Soundcloud:
 #    soundcloud:
@@ -75,16 +76,42 @@ topmenu:
 #      title: 'Stranger Jesus on Soundcloud'
 #      icon:  soundcloud
 #      color: orange
+#  LibSyn:
+#    libsyn:
+#      url: http://strangerjesus.libsyn.com
+#      title: 'Stranger Jesus on LibSyn'
+#      icon:
+#     color:
+#  GooglePlay:
+#    googleplay:
+#      url:
+#      title: 'Stranger Jesus on Google Play'
+#      icon:
+#     color:
+#  Stitcher:
+#    stitcher:
+#      url: 
+#      title: 'Stranger Jesus on Stitcher'
+#      icon:
+#     color:
+#  TuneIn:
+#    tunein:
+#      url: 
+#      title: 'Stranger Jesus on TuneIn'
+#      icon:
+#     color:
   Mailchimp:
     mailchimp:
-      url:  https://example.com
+      url:  https://mailchi.mp/84d19cc62032/stranger-jesus-e-newsletter
       title: 'Sign up for our newsletter'
-      icons: envelope-square
+      icon: # envelope-square
+      alt-icon: mailchimp.svg
       color: red
   Phone:
     phone:
       local: pages/phone.md
       title: 'Call the show!'
+      icon: phone
       color: black
   Support:
     support:
@@ -94,9 +121,9 @@ topmenu:
       color: green
   Contact:
     email:
-      url: https://example.com
+      url: mailto:dan@strangerjesus.com
       title: 'email'
-      icons: keyboard
+      icon: keyboard
       color: darkgray
 
 
@@ -125,7 +152,7 @@ sidemenu:
       title: Facebook
       icon:  facebook
     reddit:
-      url:   https://www.facebook.com/DanielSchultzWriter/
+      url:   https://www.reddit.com/user/strangerjesus/posts/
       title: Reddit
       icon:  reddit
     split_2:

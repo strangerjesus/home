@@ -28,7 +28,7 @@ $header-font-size-medium: 1.5rem;
     }
 
     .site-header-title {
-      color: inherit;
+      color: $site-color-hyperlink;
       font: bold 1.5em $site-font-stack-head;
       margin: auto 0px;
     }

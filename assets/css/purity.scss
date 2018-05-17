@@ -3,11 +3,11 @@
 
 /* Load the user-specified, or default fonts */
 
-{% assign base_font = site.fonts.base | default: 'Noto Sans' %}
-{% assign head_font = site.fonts.head | default: 'Montserrat' %}
+{% assign base_font = site.fonts.base | default: 'Roboto Slab' %}
+{% assign head_font = site.fonts.head | default: 'Alegreya Sans' %}
 {% assign mono_font = site.fonts.mono | default: 'Ubuntu Mono' %}
 
-@import 'https://fonts.googleapis.com/css?family={{ base_font | uri_escape }}:400,700,400italic|{{ head_font | uri_escape }}:400,700,400italic|{{ mono_font | uri_escape }}:400,700,400italic';
+@import 'https://fonts.googleapis.com/css?family=Alegreya+Sans:900|Anton|Roboto+Slab:300';
 
 $site-font-stack-base: '{{ base_font }}', sans-serif;
 $site-font-stack-head: '{{ head_font }}', sans-serif;
@@ -44,3 +44,4 @@ $site-sidebar-side: {{ site.layout.sidebar.style | default: 'left' }};
 {% endfor %}
 
 @import 'partials/layout';
+@import 'partials/custom';
