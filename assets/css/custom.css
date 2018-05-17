@@ -3,9 +3,10 @@ ul.post-list li {
  	margin-left: -6.5%; }
 
 article ul {
- 	margin-left: 0 !important; }
+	margin-left: 0 !important; }
  
 article ul li {
+ 	margin-left: 0 !important;
  	list-style-type: disc !important; }
 
 article.post-article {
