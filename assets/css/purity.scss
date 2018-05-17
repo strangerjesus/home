@@ -44,4 +44,3 @@ $site-sidebar-side: {{ site.layout.sidebar.style | default: 'left' }};
 {% endfor %}
 
 @import 'partials/layout';
-@import 'partials/custom';
