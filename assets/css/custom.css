@@ -2,9 +2,6 @@ ul.post-list li {
  	list-style-type: none;
  	margin-left: -6.5%; }
 
-article ul {
-	margin-left: 0 !important; }
- 
 article ul li {
  	margin-left: 0 !important;
  	list-style-type: disc !important; }
