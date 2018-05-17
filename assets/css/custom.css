@@ -2,10 +2,10 @@ ul.post-list li {
  	list-style-type: none;
  	margin-left: -6.5%; }
 
-ul.post-list li ul {
- 	margin-left: 0; }
+article ul {
+ 	margin-left: 0 !important; }
  
-ul.post-list li ul li {
+article ul li {
  	list-style-type: disc !important; }
 
 article.post-article {
