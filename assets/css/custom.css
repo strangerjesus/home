@@ -1,13 +1,16 @@
 ul.post-list li { 
  	list-style-type: none;
- 	margin-bottom: 3%;
  	margin-left: -6.5%; }
 
-article ul {
- 	margin-left: 10px; }
+ul.post-list li ul {
+ 	margin-left: 0; }
  
-article ul li {
- 	list-style-type: disc; }
+ul.post-list li ul li {
+ 	list-style-type: disc !important; }
+
+article.post-article {
+	margin-bottom: 10%;
+}
 
 article.post-article h3 a {
  	color: #015199; }
