@@ -15,19 +15,16 @@ title: Home
               <figcaption>{{ post.caption }}</figcaption>
           </figure>
   {% endif %}
-        
+
   <div class="content">
-      {% if post.content contains '<!--more-->' %}
-        {{ post.content | split:'<!--more-->' | first }}
-      {% else %}-->
-        {{ post.content }}
-      {% endif %}
+      {{ post.content }}
   </div>
-  <div><span class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</span>
-              {% if post.content contains '<!--more-->' %}
-              <span class="more"><a href="{{ post.url | prepend: site.baseurl }}">read more...</a></span>
-              {% endif %}
-              </div>
+  <div>
+    <span class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</span>
+        {% if post.content contains '<!--more-->' %}
+            <span class="more"><a href="{{ post.url | prepend: site.baseurl }}">read more...</a></span>
+        {% endif %}
+    </div>
 </article>
   </li>
     {% endfor %}
