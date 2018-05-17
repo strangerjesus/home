@@ -102,7 +102,7 @@ topmenu:
 #     color:
   Mailchimp:
     mailchimp:
-      url:  https://mailchi.mp/84d19cc62032/stranger-jesus-e-newsletter
+      url:  https://mailchi.mp/8e18f656201a/stranger-jesus-e-newsletter
       title: 'Sign up for our newsletter'
       icon: # envelope-square
       alt-icon: mailchimp.svg
