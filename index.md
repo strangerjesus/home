@@ -7,7 +7,7 @@ title: Home
     {% for post in site.posts %}
       <li>
 <article class="post-article">
-  <h3><a href="{{ site.url }}/{{ post.url }}">{{ post.title }}</a></h3>
+  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
  {% if post.img !=null %}
           <figure>
               <img src="/img/posts/{{ post.img }}" class="post-img" alt="{{ post.caption }}">
