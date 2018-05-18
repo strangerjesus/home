@@ -77,7 +77,7 @@ topmenu:
 #      icon:  soundcloud
 #      color: orange
   LibSyn:
-    libsyn:
+  #  libsyn:
       url: http://strangerjesus.libsyn.com
       title: 'Stranger Jesus on LibSyn'
       alt-icon: libsyn.svg
