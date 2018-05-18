@@ -99,22 +99,20 @@ topmenu:
     mailchimp:
       url:  https://mailchi.mp/8e18f656201a/stranger-jesus-e-newsletter
       title: 'Sign up for our newsletter'
-      icon: # envelope-square
       alt-icon: mailchimp.svg
-      color: red
-Phone:
+  Phone:
     phone:
       local: pages/phone.md
       title: 'Call the show!'
       icon: phone
       color: black
-Support:
+  Support:
     support:
       local: pages/support.md
       title: 'Oh God this feels so crass'
       icon:  dollar-sign
       color: green
-Contact:
+  Contact:
     email:
       url: mailto:dan@strangerjesus.com
       title: 'email'
