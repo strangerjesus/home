@@ -61,7 +61,7 @@ layout:
     style: right
 
 topmenu:
-Itunes:
+  Itunes:
     iTunes:
       url:   https://itunes.apple.com/us/podcast/stranger-jesus/id1385819114
       title: 'Stranger Jesus on iTunes'
@@ -73,12 +73,12 @@ Itunes:
 #      title: 'Stranger Jesus on Soundcloud'
 #      icon:  soundcloud
 #      color: orange
-LibSyn:
-  #  libsyn:
+  LibSyn:
+    libsyn:
       url: http://strangerjesus.libsyn.com
       title: 'Stranger Jesus on LibSyn'
       alt-icon: libsyn.svg
-GooglePlay:
+  GooglePlay:
     googleplay:
       url: https://playmusic.app.goo.gl/?ibi=com.google.PlayMusic&isi=691797987&ius=googleplaymusic&apn=com.google.android.music&link=https://play.google.com/music/m/Ignkvycsguee33lf3fbtxlet2ym?t%3DStranger_Jesus%26pcampaignid%3DMKT-na-all-co-pr-mu-pod-16
       title: 'Stranger Jesus on Google Play'
@@ -95,7 +95,7 @@ GooglePlay:
 #      title: 'Stranger Jesus on TuneIn'
 #      icon:
 #     color:
-Mailchimp:
+  Mailchimp:
     mailchimp:
       url:  https://mailchi.mp/8e18f656201a/stranger-jesus-e-newsletter
       title: 'Sign up for our newsletter'
