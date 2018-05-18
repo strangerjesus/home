@@ -63,9 +63,9 @@ layout:
 topmenu:
   Itunes:
     iTunes:
-      url:   https://itunes.apple.com/us/podcast/stranger-jesus/id1385819114
+      url: https://itunes.apple.com/us/podcast/stranger-jesus/id1385819114
       title: 'Stranger Jesus on iTunes'
-      icon:  music
+      icon: music
       color: blue
 #  Soundcloud:
 #    soundcloud:
