@@ -21,10 +21,7 @@ title:    STRANGER JESUS
 name:  Stranger Jesus
 tagline:  Christianity for weirdos, mostly                             #Optional
 description: After years of being a square peg trying to fit in round holes it became obvious that the effort just wasn't worth it. God said "Stop doing that!" But here's the thing&#59; I know lots and lots of other people who've tried to fit in with the church without much success but to varying degrees pain, shame and apathy. This show is for them. It's an effort to let people who might not otherwise have the opportunity hear (or overhear) good news.
-keywords: 
-  Christianity
-  church
-  weirdos
+keywords: Christianity church weirdos
 timezone: America/Chicago
 lang: English
 
@@ -64,7 +61,7 @@ layout:
     style: right
 
 topmenu:
-  #Itunes:
+Itunes:
     iTunes:
       url:   https://itunes.apple.com/us/podcast/stranger-jesus/id1385819114
       title: 'Stranger Jesus on iTunes'
@@ -76,18 +73,16 @@ topmenu:
 #      title: 'Stranger Jesus on Soundcloud'
 #      icon:  soundcloud
 #      color: orange
-  LibSyn:
+LibSyn:
   #  libsyn:
       url: http://strangerjesus.libsyn.com
       title: 'Stranger Jesus on LibSyn'
       alt-icon: libsyn.svg
-     color:
-  GooglePlay:
+GooglePlay:
     googleplay:
       url: https://playmusic.app.goo.gl/?ibi=com.google.PlayMusic&isi=691797987&ius=googleplaymusic&apn=com.google.android.music&link=https://play.google.com/music/m/Ignkvycsguee33lf3fbtxlet2ym?t%3DStranger_Jesus%26pcampaignid%3DMKT-na-all-co-pr-mu-pod-16
       title: 'Stranger Jesus on Google Play'
       alt-icon: google.svg
-     color:
 #  Stitcher:
 #    stitcher:
 #      url: 
@@ -100,26 +95,26 @@ topmenu:
 #      title: 'Stranger Jesus on TuneIn'
 #      icon:
 #     color:
-  Mailchimp:
+Mailchimp:
     mailchimp:
       url:  https://mailchi.mp/8e18f656201a/stranger-jesus-e-newsletter
       title: 'Sign up for our newsletter'
       icon: # envelope-square
       alt-icon: mailchimp.svg
       color: red
-  Phone:
+Phone:
     phone:
       local: pages/phone.md
       title: 'Call the show!'
       icon: phone
       color: black
-  Support:
+Support:
     support:
       local: pages/support.md
       title: 'Oh God this feels so crass'
       icon:  dollar-sign
       color: green
-  Contact:
+Contact:
     email:
       url: mailto:dan@strangerjesus.com
       title: 'email'
