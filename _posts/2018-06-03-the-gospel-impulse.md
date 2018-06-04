@@ -1,7 +1,7 @@
 ---
 layout: page
 
-title: Episode 1&58#; The Gospel Impulse
+title: Episode 1&#58; The Gospel Impulse
 image:
 img-title:
 
