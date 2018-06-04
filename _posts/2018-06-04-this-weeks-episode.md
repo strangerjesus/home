@@ -38,7 +38,7 @@ img-title:
 	<li>Stevie Wonder, "<a href="https://www.amazon.com/Higher-Ground-Single-Version/dp/B000V66RF0">Higher Ground</a>"</li>
 	<li>"<a href="https://www.youtube.com/watch?v=4EJSkJlh_fg">Nobody Knows The Trouble I’ve Seen</a>"</li>
 	<li>Bob Marley and the Wailers, "<a href="https://www.amazon.com/Redemption-Song/dp/B000WM0NPI">Redemption Song</a>"</li>
-	<li>James Baldwin, "https://www.amazon.com/Cross-Redemption-Uncollected-Writings.../B003E8AISO"</li>
+	<li>James Baldwin, "<a href="https://www.amazon.com/Cross-Redemption-Uncollected-Writings.../B003E8AISO">Uses of the Blues</a>"</li>
 	<li><a href="https://www.amazon.com/1948-1951-Five-Blind-Boys-Alabama/dp/B000FHYI56">Five Blind Boys of Alabama</a></li>
 	<li><a href="https://www.amazon.com/1947-1954-Five-Blind-Mississippi/dp/B000JFXTQ8
 ">Five Blind Boys of Mississippi</a></li>
