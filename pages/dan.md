@@ -5,7 +5,7 @@ icon: user
 ---
 
 <div class="container">
-	<img class="page-img" src="{{ site.url }}/assets/images/pastordan.png" alt="The man behind the myth">
+	<img class="page-img" src="http://www.strangerjesus.com/assets/images/pastordan.png" alt="The man behind the myth">
 	<div class="main-content">
 		<p>Daniel Schultz has been an ordained minister in the <a href="http://www.ucc.org">United Church of Christ</a> since 1999. He has served mostly small, mostly rural congregations in Georgia, Pennsylvania, and Wisconsin.</p>
 		<p>A prolific blogger and writer, Dan has been published in *The Christian Century, Congregations, The Guardian, The Progressive Christian, The Revealer*, and <a href="https://rewire.news/religion-dispatches/">Religion Dispatches</a>, where he serves as a Contributing Editor. In 2005, he established the Street Prophets community in partnership with Markos Moulitsas of <a href="http://dailykos.com">Daily Kos</a>.</p>
