@@ -4,5 +4,8 @@ layout: default
 
 <article class="page-article">
 	<h1>{{ page.title }}</h1>
+	{% if post.image =! null %}
+		{{ <a href="http://www.strangerjesus.com/assets/images/{{ post.img }}"><img src="http://www.strangerjesus.com/assets/images/{{ post.img }}" class="post-image"></a> }}
+	{% end if %}
 	{{ content }}
 </article>
