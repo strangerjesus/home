@@ -1,7 +1,7 @@
 ---
 layout: page
 
-title: Episode 3&#58; He's Out of His Mind
+title: Episode 3&#58; This Is The One. This Is The One&quest;
 image:
 img-title:
 
